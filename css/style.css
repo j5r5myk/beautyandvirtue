@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'futomaru';
+    src: url('../fonts/MARTFUTOMARUSHADOW.TTF') format('truetype');
+}
+
+body {
+    font-family: 'futomaru', sans-serif;
+    color: #609dff;
+    font-size: 30px;
+}
+
+div {
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content; /* Chrome */
+    #border: 1px black dotted;
+}
+
+#viewer {
+    background-color:black;
+    position: fixed;
+    width: 500px;
+    height: 250px;
+    top: 30%;
+    left: 45%;
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -250px; /* Negative half of width. */
+    
+}
+
+#michie  img {
+    height: auto;
+    width: 650px; 
+}
+
+#michie {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
