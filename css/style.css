@@ -1,6 +1,10 @@
 @font-face {
     font-family: 'futomaru';
-    src: url('../fonts/MARTFUTOMARUSHADOW.TTF') format('truetype');
+     src: url('../fonts/MARTFUTOMARUSHADOW.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MARTFUTOMARUSHADOW.eot'),
+     url('../fonts/MARTFUTOMARUSHADOW.woff') format('woff'), 
+     url('../fonts/MARTFUTOMARUSHADOW.ttf')  format('truetype'),
+     url('../fonts/MARTFUTOMARUSHADOW.svg#svgFontName') format('svg');
 }
 
 body {
