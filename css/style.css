@@ -19,9 +19,9 @@ div {
     width: -webkit-max-content; /* Chrome */
     #border: 1px black dotted;
 }
-#text-wrapper {
-  top:18%;
+#info {
   position: fixed;
+  top: 20%;
 }
 #viewer {
     background-color:black;
